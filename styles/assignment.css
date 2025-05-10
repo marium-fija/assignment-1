@@ -15,6 +15,8 @@
     color: #0E0E0E;
 }
 .sign-in{
+    font-size: 18px;
+    font-weight: 700;
     padding: 15px 30px;
     border: 2px solid #006A50 ;
     color: #006A50;
@@ -57,6 +59,13 @@
     height: 400px;
 }
 /* vision style */
+.vision-section{
+    max-width: 1280px;
+    margin: 160px auto;
+    align-items: center;
+    
+
+}
 .vision-section h2{
  height: auto;
  font-size: 40px; 
@@ -68,4 +77,66 @@
    font-size: 16px;
    color: rgba(14, 14, 14, 0.7);
    margin-bottom: 32px;
+}
+.cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.card{
+    text-align: left;
+    border-radius: 16px;
+    padding: 32px;
+    gap: 24px;
+}
+.card-img{
+    width: 64px;
+    height: 64px;
+}
+.card h3{
+font-weight: bold;
+font-size: 20px;    
+color: #0E0E0E;
+}
+.card-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.blue{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.green{
+background-color: rgba(198, 228, 214, 1);
+}
+.yellow{
+background-color: rgba(247, 235, 207, 1);
+}
+.blue-btn{
+ padding: 11px 20px;   
+ align-items: center;
+ gap: 48px;
+ color: #FFFFFF;
+ border: none;
+ border-radius: 8px;
+ background-color: #5490F5;
+ 
+}
+.green-btn{
+    padding: 11px 20px;   
+ align-items: center;
+ gap: 48px;
+ color: #FFFFFF;
+ border: none;
+ border-radius: 8px;
+ background-color: #09A15C;
+}
+.yellow-btn{
+     padding: 11px 20px;   
+ align-items: center;
+ gap: 48px;
+ color: #FFFFFF;
+ border: none;
+ border-radius: 8px;
+ background-color: #FFC239;
 }
