@@ -213,15 +213,30 @@ margin: 24px auto;
       border: none;
     
     }
-    
+    .btn-2{
+background-color: #C6E4D6;
+    }
+    .btn-1:hover{
+        background-color: cornflowerblue;
+        color: white;
+    }
+    .btn-2:hover{
+        background-color: hotpink;
+        color: white;
+    }
+    .btn-3:hover{
+        background-color: mediumpurple;
+         color: white;
+    }
+    .btn-4:hover{
+        background-color: violet;
+        color: white;
+    }
     .tk{
         height: auto;
         width: auto;
         background-color: rgba(182, 178, 178, 0.15);
-       
-        
-
-    }
+       }
     .amount{
         color: rgba(14, 14, 14, 0.3);
         font-size: 20px;
