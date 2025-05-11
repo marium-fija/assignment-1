@@ -44,12 +44,13 @@
     font-size: 56px;
     color: #0E0E0E;
 }
-.btn-explore{
+.btn-primary{
     height: auto;
     font-weight: 700;
     font-size: 18px;
     color: #FFFFFF;
-    padding: 34px 17px;
+    padding: 13px 26px;
+    border: none;
     border-radius: 8px;
     background-color: #006A50;
     align-items: center;
@@ -140,3 +141,128 @@ background-color: rgba(247, 235, 207, 1);
  border-radius: 8px;
  background-color: #FFC239;
 }
+.yunus{
+   background-color: rgba(182, 178, 178, 0.15);
+    padding: 24px 48px; 
+    gap: 24px;
+    text-align: left;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+.chief-adviser{
+ font-size: 16px;   
+ /* height: 24px; */
+ color: rgba(14, 14, 14, 0.8);
+}
+.dr-yunus{
+   background-image: url('../assets/quote-bg.png');
+   background-repeat: no-repeat;
+ }
+ /* recent news */
+ .news h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+ }
+ .news-text{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+ }
+ .news-card-1 , .news-card-2{
+    display: flex;
+    background-color: rgba(182, 178, 178, 0.15);
+gap: 32px;
+padding: 48px;
+text-align: left;
+border-radius: 24px;
+margin: 24px auto;
+ }
+ .news-img{
+    width: 100%;
+   border-radius: 24px;
+  } 
+  .donate{
+    text-align: left;
+    justify-items: center;
+    gap: 32px;
+  }  
+  .donate h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+  }
+  .donate-text{
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+ .donate-btn{
+    display: flex;
+    text-align: left;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    }
+    .donate-tk{
+     font-weight: bold;
+     font-size: 40px;
+     color: rgba(14, 14, 14, 0.8);
+      padding: 40px; 
+      margin-left: 24px;
+      border-radius: 16px; 
+      border: none;
+    
+    }
+    
+    .tk{
+        height: auto;
+        width: auto;
+        background-color: rgba(182, 178, 178, 0.15);
+       
+        
+
+    }
+    .amount{
+        color: rgba(14, 14, 14, 0.3);
+        font-size: 20px;
+        padding: 20px 422px;
+        text-align: center;
+        gap: 24px;
+
+    }
+    /* footer style */
+    footer{
+        margin: 160px;
+        text-align: center;
+        gap: 64px;
+        padding: 100px 80px;
+        background-color: rgba(198, 228, 214, 1);
+        border-radius: 24px;
+    }
+
+    footer h2{
+        font-weight: bold;
+        font-size: 40px;
+        color: #0E0E0E;
+    }
+    .footer-descripsion{
+        margin-bottom: 24px;
+        gap: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: rgba(14, 14, 14, 0.7);
+    }
+    .footer-input{
+     font-size: 16px;
+     text-align: center; 
+     margin-right: 0px;
+     gap: 0px;
+
+    }
+    .footer-email{
+        text-align: left;
+        padding: 18px 40px;
+        border: none;
+        border-radius: 8px;
+        border-radius: mixed;
+    }
